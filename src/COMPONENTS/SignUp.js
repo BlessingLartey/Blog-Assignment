@@ -50,7 +50,7 @@ function handleLogOut(event){
             signup
             ?
             <>
-            <h1>wecome</h1>
+            
             <button className='style' onClick={handleLogOut}>Log Out</button>
             <Post/>
             </>
