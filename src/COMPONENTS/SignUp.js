@@ -74,14 +74,8 @@ function handleLogOut(event){
                 <label>Confirm Password:</label>
                 <input type='password' name='confirmpassword' value={confirmpassword} onChange={handleConfirmPasswordInput}/>
                 <br></br>
-                <label>
-                    <button onClick= {handleSignUp}>Sign Up</button>
-                    <br></br>
-                    {/* <h1>Already have an account?</h1> */}
-                    <br></br>
-                    {/* <button onClick={handleSignIn}>Sign In</button> */}
-                    {/* <SignIn/> */}
-                </label>
+               
+                
             </form>
             </>
             }

@@ -1,10 +1,13 @@
 import React from 'react'
 import LikeDislike from './LikeDislike'
 
-export default function Post(){
-    return(
-        <div>
-            <center>
+
+function Home() {
+    return (
+        <div className='App-body'>
+           
+          <center>
+                
             <h1>BAKE IT, SEW IT, DEC IT</h1>
             <br></br>
             <h2>Bake It</h2>
@@ -23,9 +26,10 @@ export default function Post(){
             <br></br>
             <p>This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. This is how we decorate the decoratable. </p>
             <LikeDislike/>
-            <br></br>
-            
             </center>
+   
         </div>
     )
 }
+
+export default Home
