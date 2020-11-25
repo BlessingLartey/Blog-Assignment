@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from './COMPONENTS/Nav'
 import Home from './COMPONENTS/Home'
-//import Post from './COMPONENTS/Post'
 import ContactUs from './COMPONENTS/ContactUs'
 import AboutUs from './COMPONENTS/AboutUs'
 import './App.css'
