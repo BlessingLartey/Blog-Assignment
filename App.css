@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+ .nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5ch;
+  min-width: 150ch;
+  background: rgb(158, 166, 184);
+  color: antiquewhite;
+
+}
+
+.nav-links{
+  width: 30%;
+  display: flex;
+  justify-content: last baseline;
+  align-items: center;
+  list-style: none;
+}
+
+.App-body{
+  align-items: center;
+  display: flex;
+  margin: 50px;
+}
+.App-welcome{
+  min-width: 20px;
+  min-height: 20px;
+}
